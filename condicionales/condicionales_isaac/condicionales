@@ -1,0 +1,22 @@
+nombre = (input("digite su nombre:"))
+
+apellido = (input("digite su apellido:"))
+
+sexo = int (input("digite su sexo masculino(1) o femenino(2):"))
+
+edad = int(input("digite su edad:"))
+
+if edad >= 18:
+    
+    print("usted es meyor de edad")
+    
+else:
+    print ("usted es menor de edad") 
+    
+if sexo == 1:
+    
+    print ("usted es hombre")
+    
+if sexo == 2:
+    
+    print ("usted es mujer")
