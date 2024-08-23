@@ -22,7 +22,7 @@ public class Tareaprom2 {
          System.out.println("digite su nombre:");
          String nombre = entrada.next();
         
-         System.out.println("digite su sexo masculino(1) 0 femenino(2):");
+         System.out.println("digite su sexo masculino(1) o femenino(2):");
          int sexo = entrada.nextInt();
          
          System.out.println("digite su apellido:");
@@ -33,7 +33,7 @@ public class Tareaprom2 {
          
          
          
-         if (edad == 18){
+         if (edad >= 18){
              System.out.println("usted es mayor de edad");}
              
          else {    
